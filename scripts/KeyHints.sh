@@ -23,6 +23,8 @@ GDK_BACKEND=$BACKEND yad \
     --column=Description: \
     --column=Command: \
     --timeout-indicator=bottom \
+    --width=900 \
+    --height=650 \
 "ESC" "close this app" "" " = " "SUPER KEY (Windows Key Button)" "(SUPER KEY)" \
 " SHIFT K" "Searchable Keybinds" "(Search all Keybinds via rofi)" \
 " SHIFT E" "KooL Hyprland Settings Menu" "" \
@@ -69,4 +71,4 @@ GDK_BACKEND=$BACKEND yad \
 " ALT E" "Rofi Emoticons" "Emoticon" \
 " H" "Launch this Quick Cheat Sheet" "" \
 "" "" "" \
-"More tips:" "https://github.com/JaKooLit/Hyprland-Dots/wiki" ""\
+"More tips:" "https://github.com/JaKooLit/Hyprland-Dots/wiki" "" \
